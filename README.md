@@ -47,15 +47,16 @@ It combines **Java**, **MySQL**, and **JavaMail API** to create a powerful file 
 ## 🏗️ Project Structure
 
 fileHider/
-└── src/
-└── main/
-└── java/
-├── dao/ # Data Access Objects for database interactions
-├── db/ # Database connection setup
-├── model/ # Java classes for Users & File Data
-├── service/ # OTP generation & email sending services
-├── views/ # User interface and file handling
-└── Main.java # Entry point of the application
+├── src/
+│   └── main/
+│       └── java/
+│           ├── dao/        # Data Access Objects for database interactions
+│           ├── db/         # Database connection setup
+│           ├── model/      # Java classes for Users & File Data
+│           ├── service/    # OTP generation & email sending services
+│           ├── views/      # User interface and file handling
+│           └── Main.java   # Entry point of the application
+
 
 ---
 
